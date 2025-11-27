@@ -1,0 +1,199 @@
+Best configuration for DistilBERT with classifier
+Number of parameters: 592130
+Best configuration found: Dropout=0.1, Batch size=32, Learning rate=1e-05, Weight decay=0.01, Scheduler=cosine
+Best validation accuracy: 0.8532
+Best validation loss: 0.3458
+Training duration: 1302.4616 seconds
+Average epoch durations: 42.2114 seconds
+
+=============================================
+Test performance for DistilBERT with layers classifier
+Test Loss: 0.3456, Accuracy: 0.8524, F1 Score: 0.8524
+
+Confusion Matrix:
+[[10644  1856]
+ [ 1835 10665]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.85      0.85      0.85     12500
+           1       0.85      0.85      0.85     12500
+
+    accuracy                           0.85     25000
+   macro avg       0.85      0.85      0.85     25000
+weighted avg       0.85      0.85      0.85     25000
+
+=============================================
+
+
+Best configuration for DistilBERT with top_layers
+Number of parameters: 14767874
+Best configuration found: Dropout=0.1, Batch size=32, Learning rate=1e-05, Weight decay=0.01, Scheduler=cosine
+Best validation accuracy: 0.9184
+Best validation loss: 0.2076
+Training duration: 609.8983 seconds
+Average epoch durations: 64.5824 seconds
+=============================================
+Test performance for DistilBERT with layers top_layers
+Test Loss: 0.1962, Accuracy: 0.9230, F1 Score: 0.9230
+
+Confusion Matrix:
+[[11408  1092]
+ [  832 11668]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.93      0.91      0.92     12500
+           1       0.91      0.93      0.92     12500
+
+    accuracy                           0.92     25000
+   macro avg       0.92      0.92      0.92     25000
+weighted avg       0.92      0.92      0.92     25000
+
+=============================================
+
+
+Best configuration for DistilBERT with DoRA
+Number of parameters: 156672
+Best configuration found: Rank=8, Alpha=16,Batch size=32, Learning rate=1e-05, Scheduler=cosineBest validation accuracy: 0.8988
+Best validation loss: 0.2573
+Training duration: 363.4538 seconds
+Average epoch durations: 97.3207 seconds
+=============================================
+Test performance for DistilBERT with layers DoRA
+Test Loss: 0.2431, Accuracy: 0.9062, F1 Score: 0.9062
+
+Confusion Matrix:
+[[11688   812]
+ [ 1532 10968]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.88      0.94      0.91     12500
+           1       0.93      0.88      0.90     12500
+
+    accuracy                           0.91     25000
+   macro avg       0.91      0.91      0.91     25000
+weighted avg       0.91      0.91      0.91     25000
+=============================================
+
+
+Best configuration for DistilBERT with DoRA
+Number of parameters: 156672
+Best configuration found: Rank=8, Alpha=16,Batch size=32, Learning rate=1e-05, Scheduler=cosineBest validation accuracy: 0.9094
+Best validation loss: 0.2344
+Training duration: 1085.8593 seconds
+Average epoch durations: 96.9845 seconds
+=============================================
+Test performance for DistilBERT with layers DoRA
+Test Loss: 0.2271, Accuracy: 0.9136, F1 Score: 0.9136
+
+Confusion Matrix:
+[[11368  1132]
+ [ 1027 11473]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.92      0.91      0.91     12500
+           1       0.91      0.92      0.91     12500
+
+    accuracy                           0.91     25000
+   macro avg       0.91      0.91      0.91     25000
+weighted avg       0.91      0.91      0.91     25000
+
+=============================================
+
+
+Best configuration for DistilBERT with none
+Number of parameters: 66955010
+Best configuration found: Dropout=0.1, Batch size=32, Learning rate=1e-05, Weight decay=0.01, Scheduler=cosine
+Best validation accuracy: 0.9186
+Best validation loss: 0.2103
+Training duration: 712.1629 seconds
+Average epoch durations: 119.3921 seconds
+=============================================
+Test performance for DistilBERT with layers none
+Test Loss: 0.2018, Accuracy: 0.9237, F1 Score: 0.9237
+
+Confusion Matrix:
+[[11300  1200]
+ [  708 11792]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.94      0.90      0.92     12500
+           1       0.91      0.94      0.93     12500
+
+    accuracy                           0.92     25000
+   macro avg       0.92      0.92      0.92     25000
+weighted avg       0.92      0.92      0.92     25000
+
+=============================================
+
+
+Best configuration for DistilBERT with LoRA
+Number of parameters: 147456
+Best configuration found: Rank=8, Alpha=16,Batch size=32, Learning rate=1e-05, Scheduler=cosineBest validation accuracy: 0.9078
+Best validation loss: 0.2343
+Training duration: 874.7500 seconds
+Average epoch durations: 100.5293 seconds
+=============================================
+Test performance for DistilBERT with layers DoRA
+Test Loss: 0.2241, Accuracy: 0.9150, F1 Score: 0.9150
+
+Confusion Matrix:
+[[11434  1066]
+ [ 1060 11440]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.92      0.91      0.91     12500
+           1       0.91      0.92      0.91     12500
+
+    accuracy                           0.91     25000
+   macro avg       0.91      0.91      0.91     25000
+weighted avg       0.91      0.91      0.91     25000
+
+=============================================
+
+
+Best configuration for DistilBERT with DoRA
+Number of parameters: 82944
+Best configuration found: Rank=4, Alpha=8,Batch size=32, Learning rate=1e-05, Scheduler=cosineBest validation accuracy: 0.9070
+Best validation loss: 0.2392
+Training duration: 1674.6497 seconds
+Average epoch durations: 96.1715 seconds
+=============================================
+Test performance for DistilBERT with layers DoRA
+Test Loss: 0.2251, Accuracy: 0.9146, F1 Score: 0.9146
+
+Confusion Matrix:
+[[11354  1146]
+ [  989 11511]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.92      0.91      0.91     12500
+           1       0.91      0.92      0.92     12500
+
+    accuracy                           0.91     25000
+   macro avg       0.91      0.91      0.91     25000
+weighted avg       0.91      0.91      0.91     25000
+
+=============================================
+
+
+Best configuration for DistilBERT with LoRA
+Number of parameters: 73728
+Best configuration found: Rank=4, Alpha=8,Batch size=32, Learning rate=1e-05, Scheduler=cosineBest validation accuracy: 0.9054
+Best validation loss: 0.2524
+Training duration: 755.1031 seconds
+Average epoch durations: 101.6555 seconds
+=============================================
